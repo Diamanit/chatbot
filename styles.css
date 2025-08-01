@@ -1,0 +1,110 @@
+body {
+    height: 100%;
+    max-height: 100%;
+    text-align: center;
+    font-size: 200%;
+    background-color: #363636;
+    font-family: fantasy;
+    color: rgb(220, 220, 220);
+}
+
+h1 {
+    color: rgb(148, 127, 255);
+    background-color: #212121;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+    
+.message, .mymessage{
+    border-radius: 15px;
+    border: 3px, solid, #212121;
+    margin: 1em;
+    padding: 1em;
+    color: rgb(25, 25, 25);
+    box-shadow: #212121 10px 10px 20px;
+    text-align: left;
+}
+
+.message {
+    background-color: rgb(148, 127, 255);
+    text-align: left;
+}
+
+.mymessage {
+    background-color: rgb(255, 127, 217);
+    text-align: right;
+}
+
+.messageSending{
+    flex: 0 0 auto;
+    background-color: #212121;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.username {
+    font-family: Impact, Fantasy;
+}
+
+.messageText {
+    font-family: MT, Cursive;
+}
+
+.sendtime {
+    text-align: right;
+    font-family: Open Sans, Sans-serif;
+}
+
+.mysendtime {
+    text-align: left;
+    font-family: Open Sans, Sans-serif;
+}
+
+#p {
+    flex: 1 1 auto;
+    overflow-y: auto;
+}
+
+button {
+    background-color: rgb(148, 127, 255); 
+    border-radius: 15px;
+    border: 3px, outset, #212121;
+    color: rgb(25, 25, 25);
+    padding: 10px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    box-shadow: #141414 10px 10px 20px;
+}
+
+button:hover {
+    background-color: rgb(106, 89, 190); 
+    color: rgb(25, 25, 25);
+    border: 3px, inset, #212121;
+}
+
+input {
+    background-color: rgb(148, 127, 255); 
+    border: 3px, outset, #212121;
+    border-radius: 15px;
+    color: rgb(25, 25, 25);
+    padding: 10px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    box-shadow: #141414 10px 10px 20px;
+}
+
+input:hover {
+    background-color: rgb(106, 89, 190); 
+    color: rgb(25, 25, 25);
+    border: 3px, inset, #212121;
+}
