@@ -3,7 +3,7 @@ let inputElement;
 let chatWindow;
 let userId
 
-let serverURL = "http://10.20.8.226:3000";
+let serverURL = "https://10.20.8.226:3000";
 
 
 document.addEventListener("DOMContentLoaded", function () {
